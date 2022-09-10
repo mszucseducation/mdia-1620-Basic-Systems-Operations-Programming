@@ -1,0 +1,15 @@
+{
+  "name": "javascript-tests",
+  "version": "1.0.0",
+  "description": "Install the package.json with the default values\r npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
+}

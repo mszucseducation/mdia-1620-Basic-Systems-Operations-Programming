@@ -1,0 +1,7 @@
+{
+    "termOne":[
+      {"department":"COMM", "className":"Communication for Digital Design and Development"},
+      {"department":"COMP", "className":"Fundamental Frontend Web Technologies"},
+      {"department":"MDIA", "className":"Vector Graphics 1"}
+    ]
+}
