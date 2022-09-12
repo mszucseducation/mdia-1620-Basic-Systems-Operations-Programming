@@ -1,12 +1,6 @@
-// declare a variable called hello
+// electronics items
 
-var number;
-
-//declare a variable called technology
-
-var technology;
-
-//decalre a variable called good
-
-var good;
-
+var electronicsItems;
+var britishColumbiaIn
+var ElectronicsItems;
+var Electronics_Items;
