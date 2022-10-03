@@ -26,5 +26,4 @@
  * Then add in the following items:
  * laptop, mouse, keyboard
  * Then console log out the array
- * 
  */
