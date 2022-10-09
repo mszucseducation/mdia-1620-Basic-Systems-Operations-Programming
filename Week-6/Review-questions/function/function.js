@@ -1,8 +1,8 @@
 var salary = salaryCalculation(35, 8, 70, 2);
 var calculated = 0;
 
-function salaryCalculation(regularHourlyWage, regularHoursWorked, OverTimeHourlyWage, OverTimeHoursWorked) {
-    calculated = (regularHourlyWage* regularHoursWorked) + (OverTimeHourlyWage*OverTimeHoursWorked);
+function salaryCalculation(regularHourlyWage, regularHoursWorked, overTimeHourlyWage, overTimeHoursWorked) {
+    calculated = (regularHourlyWage * regularHoursWorked) + (overTimeHourlyWage * overTimeHoursWorked);
     if(calculated > 1000) {
         return "You got paid a lot this time!";
     } else if(calculated > 500) {
