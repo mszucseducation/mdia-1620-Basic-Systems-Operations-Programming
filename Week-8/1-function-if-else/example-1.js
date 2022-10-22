@@ -21,22 +21,3 @@
     Tom, 20
     Wilson, 120
  */
-
-    function job(position, hoursWorked) {
-
-        if(position == "Marketing Manager"){
-          console.log(`I am a ${position} and work an average amount of hours. I worked ${hoursWorked} hours this week.`)
-        }
-        else if(position == "Engineer"){
-          console.log(`I am a ${position} and I work too much. I worked ${hoursWorked} hours this week.`)
-        }
-        else{
-          console.log(`I am a student.`)
-        }
-      }
-      
-      var sentence = 
-
-      job("Marketing Manager", 40) 
-      job("Engineer", 70) 
-    
