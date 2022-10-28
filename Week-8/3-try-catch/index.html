@@ -7,36 +7,20 @@
 <p>Please input a number between 5 and 10:</p>
 
 <input id="grabbingNumber" type="number">
-<button type="button" onclick="personInformation()">Test Input</button>
+<button type="button">Test Input</button>
 
 <p id="personName"></p>
 <p id="personAge"></p>
 
 <script>
 
-let json = '{"name":"Peter", "age": 35}';
-//let json = "{ bad json }";
-
 function personInformation() {
-    var num = document.getElementById("grabbingNumber").value;
+    
 
     if(num >= 5 &&  num <= 10) {
-        try {
-            let user = JSON.parse(json); // <-- when an error occurs...
-            alert( user.name ); // doesn't work
-            alert( user.age );
-            document.getElementById("personName").innerHTML = user.name;
-            document.getElementById("personAge").innerHTML = user.age;
-        } catch (err) {
-            // ...the execution jumps here
-            alert( "Our apologies, the data has errors, we'll try to request it one more time." );
-            alert( err.name );
-            alert( err.age );
-        } finally {
-            alert("Done");
-        }
+
     } else {
-        throw "Not a valid number";
+        //
     }
     
 }
