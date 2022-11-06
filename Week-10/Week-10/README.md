@@ -8,6 +8,6 @@ git add
 git commit
 ```
 
-The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+> Text that is a quote
 
 [Digital Design and Development](https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/)
