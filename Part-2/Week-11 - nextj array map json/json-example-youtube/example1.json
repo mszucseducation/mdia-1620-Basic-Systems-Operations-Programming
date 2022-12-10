@@ -1,0 +1,12 @@
+{
+    "staff": [
+        { "firstName": "Ken", "lastName": "James" },
+        { "firstName": "Joe", "lastName": "Ed" },
+        { "firstName": "Jen", "lastName": "Vern" }
+    ],
+    "managers": [
+        { "firstName": "person1", "lastName": "personOneLast" },
+        { "firstName": "person2", "lastName": "personTwoLast" },
+        { "firstName": "person3", "lastName": "personThreeLast" }
+    ]
+}
