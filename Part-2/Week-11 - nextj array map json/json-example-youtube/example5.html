@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="user"></p>
+        <script>
+            var info = '{"firstName": "Kenny", "lastName": "Fred", "hobby": ["biking", "hiking", "running"]}'
+            
+            var objectInfo = JSON.parse(info);
+
+            var sentence = "My name is " + objectInfo.firstName + " "  + objectInfo.lastName + "<br>" + 
+                            "My top hobby is " + objectInfo.hobby[1];
+
+            document.getElementById("user").innerHTML = sentence;
+
+            console.log(sentence);
+        </script>
+    </body>
+</html>
